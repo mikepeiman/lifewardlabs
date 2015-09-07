@@ -46,7 +46,19 @@
 </div> -->
       <div class="row">
       <div class="large-12 columns">
-          <p class="text-center" style="margin-top: 100px;"><img src="images/lifewardlabs-logo-light-v1.3.png" /></p>
+          <p class="text-center logo" style="margin-top: 100px;"><img src="images/lifewardlabs-logo-light-v1.3.png" class="logo" /></p>
+          <svg height="0" xmlns="http://www.w3.org/2000/svg">
+        <filter id="drop-shadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="12" dy="12" result="offsetblur"/>
+        <feFlood flood-color="rgba(0,0,0,0.5)"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        </svg>
           <h1 class="text-center mega" style="margin-bottom: 50px;">Lifeward Labs</h1>
           <div class="row fullwidth">            
               <h3 class="text-center" style="color:#f1f2f2"><em>Integrated systems for knowledge management, personal productivity, and conscious living.</em></h3>
@@ -60,9 +72,9 @@
               <h1 class="text-center super" style="color:#50C8F0">Action</h1>
             </div>
             <div class="large-4 columns">
-              <h1 class="text-center super">Growth</h1>
+              <h1 class="text-center super" style="margin-bottom: .45em;">Growth</h1>
             </div>
-          <hr class="margin-bot-big">
+          <hr class="pad-big">
          </div>
          </div>
         <div class="row margin-bot-big">
@@ -87,7 +99,7 @@
             <form data-abide  action="http://getthefitness.us7.list-manage.com/subscribe/post?u=2e0789618f3335c1fdeae5f80&amp;id=fa100a4a55" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
            <input type="email"  name="MERGE0" id="MERGE0"  placeholder="Your email address" class="email-field" style="margin-bottom: 0px;" /> 
            <p>
-           <span class="footer-text">We despise spam and will never disclose your email address.</span>
+           <span class="footer-text">We never spam and will never disclose your email address.</span>
            </p>
            <p class="text-center" style="margin-top: 15px"> 
            <input type="submit"  id="mc-embedded-subscribe" class="button ghost-blue fullwidth" onclick="submitForm()"></input>

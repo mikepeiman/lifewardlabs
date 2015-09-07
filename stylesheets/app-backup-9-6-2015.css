@@ -7923,9 +7923,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 4.6875rem;
   font-weight: 800;
   color: #f1f2f2;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
-/* line 274, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 278, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .super {
   font-size: 3.4375rem;
   color: #f1f2f2;
@@ -7936,39 +7937,46 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
-/* line 287, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 294, ../bower_components/foundation/scss/foundation/components/_type.scss */
+.logo {
+  -webkit-filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.75));
+}
+
+/* line 300, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
   font-size: 2.125rem;
 }
 
-/* line 288, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 301, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
   font-size: 1.6875rem;
 }
 
-/* line 289, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 302, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
   font-size: 1.375rem;
 }
 
-/* line 290, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 303, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
   font-size: 1.125rem;
 }
 
-/* line 291, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 304, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
   font-size: 1.125rem;
 }
 
-/* line 292, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 305, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
   font-size: 1rem;
 }
 
-/* line 294, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 307, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
   color: #8ddbf5;
@@ -7977,7 +7985,7 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
-/* line 296, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 309, ../bower_components/foundation/scss/foundation/components/_type.scss */
 hr {
   border: solid #DDDDDD;
   border-width: 1px 0 0;
@@ -7987,27 +7995,27 @@ hr {
 }
 
 /* Helpful Typography Defaults */
-/* line 305, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 318, ../bower_components/foundation/scss/foundation/components/_type.scss */
 em,
 i {
   font-style: italic;
   line-height: inherit;
 }
 
-/* line 311, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 324, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
   font-weight: bold;
   line-height: inherit;
 }
 
-/* line 317, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 330, ../bower_components/foundation/scss/foundation/components/_type.scss */
 small {
   font-size: 60%;
   line-height: inherit;
 }
 
-/* line 322, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 335, ../bower_components/foundation/scss/foundation/components/_type.scss */
 code {
   background-color: #d0c2ff;
   border-color: #af95ff;
@@ -8020,7 +8028,7 @@ code {
 }
 
 /* Lists */
-/* line 334, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 347, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul,
 ol,
 dl {
@@ -8031,15 +8039,15 @@ dl {
   margin-bottom: 1.25rem;
 }
 
-/* line 344, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 357, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul {
   margin-left: 1.1rem;
 }
-/* line 346, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 359, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   margin-left: 0;
 }
-/* line 349, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 362, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet li ul,
 ul.no-bullet li ol {
   margin-left: 1.25rem;
@@ -8048,42 +8056,42 @@ ul.no-bullet li ol {
 }
 
 /* Unordered Lists */
-/* line 362, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 375, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul li ul,
 ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
 }
-/* line 371, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 384, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit;
 }
-/* line 374, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 387, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem;
 }
-/* line 375, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 388, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.circle {
   list-style-type: circle;
   margin-left: 1.1rem;
 }
-/* line 376, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 389, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem;
 }
-/* line 377, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 390, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   list-style: none;
 }
 
 /* Ordered Lists */
-/* line 381, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 394, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol {
   margin-left: 1.4rem;
 }
-/* line 384, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 397, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol li ul,
 ol li ol {
   margin-left: 1.25rem;
@@ -8091,18 +8099,18 @@ ol li ol {
 }
 
 /* Definition Lists */
-/* line 394, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 407, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
-/* line 398, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 411, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
   margin-bottom: 0.75rem;
 }
 
 /* Abbreviations */
-/* line 402, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 415, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr,
 acronym {
   text-transform: uppercase;
@@ -8111,39 +8119,39 @@ acronym {
   cursor: help;
 }
 
-/* line 409, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 422, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr {
   text-transform: none;
 }
-/* line 411, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 424, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr[title] {
   border-bottom: 1px dotted #DDDDDD;
 }
 
 /* Blockquotes */
-/* line 417, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 430, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #DDDDDD;
 }
-/* line 422, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
   color: #78d5f3;
 }
-/* line 426, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 439, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 430, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 443, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
   color: #78d5f3;
 }
 
-/* line 436, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 449, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
@@ -8151,29 +8159,29 @@ blockquote p {
 }
 
 /* Microformats */
-/* line 443, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard {
   display: inline-block;
   margin: 0 0 1.25rem 0;
   border: 1px solid #DDDDDD;
   padding: 0.625rem 0.75rem;
 }
-/* line 449, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 462, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard li {
   margin: 0;
   display: block;
 }
-/* line 453, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 466, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
   font-weight: bold;
   font-size: 0.9375rem;
 }
 
-/* line 460, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 473, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
   font-weight: bold;
 }
-/* line 462, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 475, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -8183,37 +8191,37 @@ blockquote p {
 }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 473, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 486, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 
-  /* line 474, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 487, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
     font-size: 2.75rem;
   }
 
-  /* line 475, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 488, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
     font-size: 2.3125rem;
   }
 
-  /* line 476, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 489, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
     font-size: 1.6875rem;
   }
 
-  /* line 477, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 490, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
     font-size: 1.4375rem;
   }
 
-  /* line 478, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 491, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
     font-size: 1.125rem;
   }
 
-  /* line 479, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 492, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
     font-size: 1rem;
   }
