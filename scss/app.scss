@@ -80,7 +80,7 @@
 }
 
 .margin-bot-big {
-	margin-bottom: 5em;
+	margin-bottom: 7em;
 }
 .margin-bot-med {
 	margin-bottom: 2.5em;
@@ -121,7 +121,7 @@
     bottom: 0;
     height: auto;
     padding: 3em 2em 0em 3em;
-    background: hsla(200,10,10,.9);
+    background: hsla(33,100,3,.9);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -152,4 +152,10 @@
   -moz-box-shadow: 0px 0px 4px 2px rgba(255,255,255,.75);
   -webkit-box-shadow: 0px 0px 4px 2px  rgba(255,255,255,.75);
   box-shadow: 0px 0px 4px 2px  rgba(255,255,255,.75); 
+}
+.footer-claim {
+   position: relative;
+   top: 170px;
+   left: 200px;
+
 }
