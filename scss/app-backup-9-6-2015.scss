@@ -58,7 +58,9 @@
 	color: #2CC900;
 	border-radius: 3px;
 }
-
+#input-name, #input-email {
+	on:hover
+}
 
 .pad-small {
 	padding: 1.25em;
@@ -98,36 +100,71 @@
 	border-top: 2px solid rgba(255,255,255,.25);
 }
 
-
+#homepage.form {
+	bottom: 0;
+}
 .fullwidth {
    width: 100%;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
 }
-.subscribe {display:none}
-.ani
-    {
-    
-    transition:height 2s;
-    -moz-transition:width 2s; /* Firefox 4 */
-    -webkit-transition:width 2s; /* Safari and Chrome */
-    -o-transition:width 2s; /* Opera */
-    display:block;
-    }
-.subscribe:checked + .ani{display: blocks; height: 400px;}
 
-.footer {
-    bottom: 0;
-    height: auto;
-    padding: 3em 2em 0em 3em;
-    background: hsla(200,10,10,.9);
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: initial;
+
+
+
+label { position: relative; top:0; left:0}
+
+input#show, input#hide {
+    display:none;
 }
-.footer-text {
-    color: scale-color($primary-color, $lightness: -50%);   
-    font-size: .8em;
+
+span#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+
+input#show:checked ~ .show:before {
+    content: ""
+}
+input#show:checked ~ .hide:before {
+    content: "Hide"
+}
+
+input#hide:checked ~ .hide:before {
+    content: ""
+}
+input#hide:checked ~ .show:before {
+    content: "Show"
+}
+input#show:checked ~ span#content {
+    opacity: 1;
+    font-size: 100%;
+    height: auto;
+}
+input#hide:checked ~ span#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+form, .subscribe:hover>div {
+    display: block;
+}
+
+.subscribe:hover>form {
+    display: block;
+}
+.subscribe:active>form {
+    display: block;
 }

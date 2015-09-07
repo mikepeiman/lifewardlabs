@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lifeward Labs</title>
+    <title>Foundation</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="stylesheets/webicons.css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,600,400italic,600italic,800italic|Lato:700,400,400italic,900,900italic,700italic|Ubuntu:400,500,400italic,500italic|Titillium+Web:300,300italic,400,400italic,600,600italic,700,700italic,900,200,200italic' rel='stylesheet' type='text/css'>
@@ -59,37 +59,72 @@
             <div class="large-4 columns">
               <h1 class="text-center super" style="color:#50C8F0">Action</h1>
             </div>
-            <div class="large-4 columns">
+            <div class="large-4 columns"  style="padding-bottom: 1.25em">
               <h1 class="text-center super">Growth</h1>
             </div>
-          <hr class="margin-bot-big">
+          <hr>
          </div>
          </div>
-        <div class="row margin-bot-big">
-        <p class="text-center pad-small" style="color:#f1f2f2; font-size: 1.05em;">We're not quite launched yet, but stay in touch. We're developing great things.</p>
-        </div>
-      
-        <div class="row footer">
-        <div class="large-4 medium-4 columns">
-        <p></p>
-        </div>
-        <div class="large-4 medium-4 columns">
+        
+          
+        
+       
+ 
+              <div> 
+              <p class="text-center pad-small" style="color:#f1f2f2;">We're not quite launched yet, but stay in touch. We're developing great things.</p>
+              
+              
+         <!--     <div class="off-canvas-wrap" data-offcanvas>  
+              <main class="inner-wrap">
+                  <p class="text-center pad-small"><a href="#homepage-form" role="button" class="left-off-canvas-toggle button small ghost" style="float: none"><span>CONTACT</span></a></p> -->
+                
+
+                <input type="radio" id="show" name="group">   
+                <input type="radio" id="hide" name="group" checked>
+                
+                <label for="show" class="show"><p class="text-center pad-small" style="margin-left: 1em">CONTACT</label></p><label for="hide" class="hide"></label>
+ <!-- id="element1" onClick="javascript:changeText(1)" class="off-canvas-submenu-call" 
+ <a href="#homepage-form" class="button small ghost-blue">Contact Us</a> -->
+                 
+                <ul>  <!--class="off-canvas-submenu" -->
+                <li>
+                <span id="content">
+                <form id="homepage-form">
+                  <div class="row">
+                    <div class="large-6 columns">
+                      <span class="text-center">
+                      <input type="text" id="input-name" placeholder="Your name" />
+                      </span>               
+                    </div>
+                    <div class="large-6 columns">
+                     <input type="text"  id="input-email" placeholder="Your email" /> 
+                    </div>
+                  </div>
+                  <div class="row">
+                        <div class="large-12 medium-12 columns">                   
+                        <textarea placeholder="Your message"></textarea>                 
+                        </div>
+                  </div>
+
+                   <div class="row">
+                   <p class="text-center pad-small"><a href="#homepage-form" class="button small ghost-blue">Send message</a></p>
+                </form>
+                </span>
+                </a></li>
+                </ul>
+               </div>
+               </div>
+            
+               <!-- </main> -->
+
+         
+        
+        <div class="row pad-small">
         <p class="text-center">
         <a href="www.twitter.com/mikepeiman" class="webicon twitter large" style="margin-right: .5em">Follow us on Twitter</a>
         <a href="www.ca.linkedin.com/mikepeiman" class="webicon linkedin large" style="margin-left: .5em">Connect on LinkedIn</a>
-        </p>   
-          <form data-abide>
-           <input type="email"  id="input-email" placeholder="Your email address" class="email-field" style="margin-bottom: 0px;" /> 
-           <p><span class="footer-text">We despise spam and will never disclose your email address.</span></p>
-           <p class="text-center" style="margin-top: 15px"> <button type="submit" class="ghost-blue">Sign up for updates</button></p>   
-
-          </form>
+        </p>
         </div>
-        
-        <div class="large-4 medium-4 columns">
-      
-        </div>
-        </div>   
 
     
     <script src="/js/vendor/fastclick.js"></script>    
