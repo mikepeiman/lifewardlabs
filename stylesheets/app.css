@@ -9593,3 +9593,28 @@ th.hide-for-touch {
   color: #0d7293;
   font-size: .8em;
 }
+
+/* line 134, ../scss/app.scss */
+.social-icon {
+  display: inline-block;
+  background-size: 100%;
+  width: 40px;
+  height: 40px;
+  text-indent: -999em;
+  text-align: left;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 149, ../scss/app.scss */
+.social-icon:hover {
+  margin: -1px 0 1px;
+  -moz-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
+}
