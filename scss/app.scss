@@ -93,9 +93,32 @@
 	border-top: 2px solid rgba(255,255,255,.25);
 	border-radius: 5px;
 }
-.panel-dark {
-	background: #3f4f5f;
-	border-top: 2px solid rgba(255,255,255,.25);
+.panel-alert-muted {
+	background: scale-color($alert-color, $saturation: -30%, $lightness: -30%);
+    border: none;
+    
+}
+.panel-alert {
+    background: $alert-color;
+    border: none;
+}
+.panel-secondary {
+    background: scale-color($secondary-color, $saturation: -30%, $lightness: -30%);
+    border: none;
+}
+.panel-secondary-tweaked {
+    background: scale-color($secondary-color, $saturation: -10%, $lightness: -40%, $alpha: -20%);
+    border: none;
+    padding: 2.5em;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+.panel-success-muted {
+    background: scale-color($success-color, $saturation: -30%, $lightness: -30%);
+    border: none;
+}
+.roundbot {
+    border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -121,7 +144,7 @@
     bottom: 0;
     height: auto;
     padding: 3em 2em 0em 3em;
-    background: hsla(15,100,2,.8);
+    background: scale-color($secondary-color,  $saturation: -10%, $lightness: -60%, $alpha: -8%);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -159,11 +182,24 @@
    padding-top: 200px;
 }
 .shadowed {
-    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 0px 1.5px rgba(0,0,0,0.5));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
+.shadowed-med {
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,.7));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.shadowed-strong {
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.9));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
 
 #modal-comingsoon-blog > p {
     text-color: #333;
