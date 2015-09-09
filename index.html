@@ -6,6 +6,7 @@
     <title>Lifeward Labs</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="stylesheets/webicons.css" />
+    <link rel="stylesheet" href="stylesheets/webicons.css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,600,400italic,600italic,800italic|Lato:700,400,400italic,900,900italic,700italic|Ubuntu:400,500,400italic,500italic|Titillium+Web:300,300italic,400,400italic,600,600italic,700,700italic,900,200,200italic' rel='stylesheet' type='text/css'>
     <script src="bower_components/modernizr/modernizr.js"></script>
        
@@ -20,19 +21,69 @@
   </ul>
   <section class="top-bar-section">
     <ul class="right">
-      <li><a href="#">Blog</a></li>
-      <li><a href="#"><i class="fi-[mail]"></i>Contact</a></li>
+      <li><a href="#" data-reveal-id="modal-comingsoon-blog">Blog</a></li>
+      <li><a href="#" data-reveal-id="modal-comingsoon-contact">Contact</a></li>
     </ul>
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="#">About Us</a></li>
+      <li><a href="#" data-reveal-id="modal-comingsoon-about">About Us</a></li>
     </ul>  
   </section>
 </nav>
-</div> 
+</div>
+
+<div id="modal-comingsoon-blog" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle" class="text-center">Blog coming soon!</h2>
+  <p class="lead" class="text-center">We have plenty to say -</p>
+  <p>But plenty to do also. This blog will launch before winter 2015, but exactly when we cannot say right now. Subscribe for updates to be notified! We'd love to keep you in the loop.</p>
+   <form action="http://getthefitness.us7.list-manage1.com/subscribe/post" method="POST">
+        <input type="hidden" name="u" value="2e0789618f3335c1fdeae5f80">
+        <input type="hidden" name="id" value="fa100a4a55">
+            <form data-abide  action="http://getthefitness.us7.list-manage.com/subscribe/post?u=2e0789618f3335c1fdeae5f80&amp;id=fa100a4a55" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+           <input type="email"  name="MERGE0" id="MERGE0"  placeholder="Your email address" class="email-field" style="margin-bottom: 0px;" /> 
+           <p>
+           <span class="footer-text">We will never spam or disclose your email address.</span>
+           </p>
+           <p class="text-center" style="margin-top: 15px"> 
+           <input type="submit"  id="mc-embedded-subscribe" class="button ghost-blue fullwidth" onclick="submitForm()"></input>
+           </p>  
+          </form> 
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+<div id="modal-comingsoon-contact" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle" class="text-center">Contact Us</h2>
+  <div class="row">
+  <div class="large-6 columns">
+  <label>
+  <input type="email" placeholder="Your email">
+  </label>
+  </div>
+  <div class="large-6 columns">
+  <label>
+  <input type="email" placeholder="Your email">
+  </label>
+  </div>
+  </div>
+  <div class="large-12 columns">
+  <label>
+  <input type="email" placeholder="Your email">
+  </label>
+  </div>
+  <p class="text-center"><a href="mailto:mike@lifewardlabs.co" class="button ghost-blue">Send us an email</a></p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+</div>
+<div id="modal-comingsoon-about" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle"  class="text-center">Lifeward Labs</h2>
+  <p class="lead">The business identity of Mike Peiman</p>
+  <p>My mission in creating Lifeward Labs is to leverage technological, cultural, and business systems to build a better world. I'll write more about that here, soon!</p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
 
       <div class="row">
-      <div class="large-12 columns">
+      
           <p class="text-center logo" style="margin-top: 100px;"><img src="images/lifewardlabs-logo-light-v1.3-highres.png" style="width:300px; height: auto;" /></p>
           <svg height="0" xmlns="http://www.w3.org/2000/svg">
         <filter id="drop-shadow">
@@ -47,11 +98,23 @@
         </filter>
         </svg>
           <h1 class="text-center mega" style="margin-bottom: 50px;">Lifeward Labs</h1>
-          <div class="row fullwidth">            
-              <h3 class="text-center" style="color:#f1f2f2"><em>Integrated systems for knowledge management, personal productivity, and conscious living.</em></h3>
+         </feMergeNode>
+         </feMergeNode>
+         </feMerge>
+         </feComposite>
+         </feFlood>
+         </feOffset>
+         </feGaussianBlur>
+         </filter>
+         </svg>
+         </div>
+
+          <div class="row fullwidth panel-dark"> 
+          <hr>           
+              <h3 class="text-center" style="color:#f1f2f2"><em>Integrated systems for managing personal</em></h3>
           </div> 
 
-          <hr>
+          <div class="row">
             <div class="large-4 columns">
               <h1 class="text-center super">Knowledge</h1>
             </div>
@@ -62,7 +125,7 @@
               <h1 class="text-center super" style="margin-bottom: .45em;">Growth</h1>
             </div>
           <hr class="pad-med">
-         </div>
+        </div>
          </div>
         <div class="row margin-bot-med">
         <p class="text-center pad-small" style="color:#f1f2f2; font-size: 1.05em;">We're not quite launched yet, but stay in touch. We're developing great things.</p>
