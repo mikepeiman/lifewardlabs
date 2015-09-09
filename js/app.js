@@ -60,3 +60,23 @@ function setFocusToTextBox(){
    frm.reset();  // Reset
    return false; // Prevent page refresh
 }
+// for smooth scroll to #id
+$(document).ready(function(){
+ 
+    function smk_jump_to_it( _selector, _speed ){
+        
+        _speed = parseInt(_speed, 10) === _speed ? _speed : 300;
+ 
+        $( _selector ).on('click', function(event){
+            event.preventDefault();
+            var url = $(this).attr('href'); //cache the url.
+ 
+            // Animate the jump
+            $("html, body").animate({ 
+                scrollTop: parseInt( $(url).offset().top ) - 50
+            }, _speed);
+ 
+        });
+    }
+ 
+});

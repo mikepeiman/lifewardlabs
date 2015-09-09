@@ -70,7 +70,7 @@ html, body {
 /* line 428, ../bower_components/foundation/scss/foundation/components/_global.scss */
 html {
   box-sizing: border-box;
-  background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080.jpg) no-repeat center center fixed;
+  background: url(../images/lifeward-birds-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,7 +96,7 @@ body {
 body {
   color: #222;
   cursor: auto;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1713,7 +1713,7 @@ select {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -2424,7 +2424,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -5149,7 +5149,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   display: inline-block;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -5712,7 +5712,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -5722,7 +5722,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 2rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -6083,7 +6083,7 @@ ul.pagination li {
 /* line 118, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -6114,7 +6114,7 @@ ul.pagination li {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #85d9f5;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-weight: normal;
 }
 /* line 97, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6300,7 +6300,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   margin-left: 1rem;
@@ -6583,7 +6583,7 @@ table tr td {
   display: block;
   background-color: #EFEFEF;
   color: #222222;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -7038,7 +7038,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #f1f2f2;
   display: block;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   padding-left: 0.9375rem;
@@ -7903,7 +7903,7 @@ p aside {
 /* line 253, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #50C8F0;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -7918,65 +7918,37 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   line-height: 0;
 }
 
-/* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
-.mega {
-  font-size: 4.6875rem;
-  font-weight: 900;
-  color: #f1f2f2;
-  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-}
-
-/* line 278, ../bower_components/foundation/scss/foundation/components/_type.scss */
-.super {
-  font-size: 3.4375rem;
-  color: #f1f2f2;
-  font-family: "Ubuntu", "Lato", "Open Sans", "Titillium Web", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
-  margin-top: 0.2rem;
-  text-rendering: optimizeLegibility;
-  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-}
-
-/* line 294, ../bower_components/foundation/scss/foundation/components/_type.scss */
-.logo {
-  -webkit-filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.8));
-  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.75));
-}
-
-/* line 300, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
   font-size: 2.125rem;
 }
 
-/* line 301, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 272, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
   font-size: 1.6875rem;
 }
 
-/* line 302, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 273, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
   font-size: 1.375rem;
 }
 
-/* line 303, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 274, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
   font-size: 1.125rem;
 }
 
-/* line 304, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 275, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
   font-size: 1.125rem;
 }
 
-/* line 305, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 276, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
   font-size: 1rem;
 }
 
-/* line 307, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 278, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
   color: #8ddbf5;
@@ -7985,7 +7957,7 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
-/* line 309, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 280, ../bower_components/foundation/scss/foundation/components/_type.scss */
 hr {
   border: solid #DDDDDD;
   border-width: 1px 0 0;
@@ -7995,27 +7967,27 @@ hr {
 }
 
 /* Helpful Typography Defaults */
-/* line 318, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 289, ../bower_components/foundation/scss/foundation/components/_type.scss */
 em,
 i {
   font-style: italic;
   line-height: inherit;
 }
 
-/* line 324, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 295, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
   font-weight: bold;
   line-height: inherit;
 }
 
-/* line 330, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 301, ../bower_components/foundation/scss/foundation/components/_type.scss */
 small {
   font-size: 60%;
   line-height: inherit;
 }
 
-/* line 335, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 306, ../bower_components/foundation/scss/foundation/components/_type.scss */
 code {
   background-color: #d0c2ff;
   border-color: #af95ff;
@@ -8028,7 +8000,7 @@ code {
 }
 
 /* Lists */
-/* line 347, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 318, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul,
 ol,
 dl {
@@ -8039,15 +8011,15 @@ dl {
   margin-bottom: 1.25rem;
 }
 
-/* line 357, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 328, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul {
   margin-left: 1.1rem;
 }
-/* line 359, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 330, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   margin-left: 0;
 }
-/* line 362, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 333, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet li ul,
 ul.no-bullet li ol {
   margin-left: 1.25rem;
@@ -8056,42 +8028,42 @@ ul.no-bullet li ol {
 }
 
 /* Unordered Lists */
-/* line 375, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 346, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul li ul,
 ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
 }
-/* line 384, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 355, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit;
 }
-/* line 387, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 358, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem;
 }
-/* line 388, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 359, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.circle {
   list-style-type: circle;
   margin-left: 1.1rem;
 }
-/* line 389, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 360, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem;
 }
-/* line 390, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 361, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   list-style: none;
 }
 
 /* Ordered Lists */
-/* line 394, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 365, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol {
   margin-left: 1.4rem;
 }
-/* line 397, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 368, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol li ul,
 ol li ol {
   margin-left: 1.25rem;
@@ -8099,18 +8071,18 @@ ol li ol {
 }
 
 /* Definition Lists */
-/* line 407, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 378, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
-/* line 411, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 382, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
   margin-bottom: 0.75rem;
 }
 
 /* Abbreviations */
-/* line 415, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 386, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr,
 acronym {
   text-transform: uppercase;
@@ -8119,39 +8091,39 @@ acronym {
   cursor: help;
 }
 
-/* line 422, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 393, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr {
   text-transform: none;
 }
-/* line 424, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 395, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr[title] {
   border-bottom: 1px dotted #DDDDDD;
 }
 
 /* Blockquotes */
-/* line 430, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 401, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #DDDDDD;
 }
-/* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 406, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
   color: #78d5f3;
 }
-/* line 439, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 410, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 443, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 414, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
   color: #78d5f3;
 }
 
-/* line 449, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 420, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
@@ -8159,29 +8131,29 @@ blockquote p {
 }
 
 /* Microformats */
-/* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 427, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard {
   display: inline-block;
   margin: 0 0 1.25rem 0;
   border: 1px solid #DDDDDD;
   padding: 0.625rem 0.75rem;
 }
-/* line 462, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 433, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard li {
   margin: 0;
   display: block;
 }
-/* line 466, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 437, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
   font-weight: bold;
   font-size: 0.9375rem;
 }
 
-/* line 473, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 444, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
   font-weight: bold;
 }
-/* line 475, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 446, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -8191,37 +8163,37 @@ blockquote p {
 }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 486, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 457, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 
-  /* line 487, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 458, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
     font-size: 2.75rem;
   }
 
-  /* line 488, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
     font-size: 2.3125rem;
   }
 
-  /* line 489, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 460, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
     font-size: 1.6875rem;
   }
 
-  /* line 490, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 461, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
     font-size: 1.4375rem;
   }
 
-  /* line 491, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 462, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
     font-size: 1.125rem;
   }
 
-  /* line 492, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 463, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
     font-size: 1rem;
   }
@@ -9542,8 +9514,8 @@ th.hide-for-touch {
 
 /* line 91, ../scss/app.scss */
 .panel-ghost {
-  background: transparent;
-  border-top: 2px solid rgba(255, 255, 255, 0.25);
+  background: rgba(100, 50, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.25);
   border-radius: 5px;
 }
 
@@ -9569,23 +9541,22 @@ th.hide-for-touch {
 .panel-secondary-tweaked {
   background: rgba(49, 9, 174, 0.8);
   border: none;
-  padding: 2.5em;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
-/* line 116, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .panel-success-muted {
   background: #2b7815;
   border: none;
 }
 
-/* line 120, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .roundbot {
   border-radius: 0px 0px 20px 20px;
 }
 
-/* line 125, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .fullwidth {
   width: 100%;
   margin-left: auto;
@@ -9593,12 +9564,12 @@ th.hide-for-touch {
   max-width: initial;
 }
 
-/* line 131, ../scss/app.scss */
+/* line 130, ../scss/app.scss */
 .subscribe {
   display: none;
 }
 
-/* line 132, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 .ani {
   transition: height 2s;
   -moz-transition: width 2s;
@@ -9610,18 +9581,18 @@ th.hide-for-touch {
   display: block;
 }
 
-/* line 141, ../scss/app.scss */
+/* line 140, ../scss/app.scss */
 .subscribe:checked + .ani {
   display: blocks;
   height: 400px;
 }
 
-/* line 143, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 .footer {
   bottom: 0;
   height: auto;
   padding: 3em 2em 0em 3em;
-  background: rgba(33, 6, 116, 0.92);
+  background: rgba(30, 0, 122, 0.2);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9630,13 +9601,13 @@ th.hide-for-touch {
   border-top: 1px solid rgba(5, 1, 0, 0.9);
 }
 
-/* line 155, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .footer-text {
-  color: #0d7293;
+  color: rgba(133, 217, 245, 0.6);
   font-size: .8em;
 }
 
-/* line 159, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 .social-icon {
   display: inline-block;
   background-size: 100%;
@@ -9653,7 +9624,7 @@ th.hide-for-touch {
   margin-bottom: 5px;
 }
 
-/* line 174, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .social-icon:hover {
   margin: -1px 0 1px;
   -moz-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
@@ -9661,21 +9632,21 @@ th.hide-for-touch {
   box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
 }
 
-/* line 180, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .footer-claim {
   position: relative;
   padding-top: 200px;
 }
 
-/* line 184, ../scss/app.scss */
+/* line 183, ../scss/app.scss */
 .shadowed {
-  -webkit-filter: drop-shadow(0px 0px 1.5px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(0px 0px 1px black);
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 190, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 .shadowed-med {
   -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.7));
   filter: url(#drop-shadow);
@@ -9683,7 +9654,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 196, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 .shadowed-strong {
   -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
   filter: url(#drop-shadow);
@@ -9691,7 +9662,117 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 204, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 #modal-comingsoon-blog > p {
   text-color: #333;
+}
+
+/* line 206, ../scss/app.scss */
+.text-shadow {
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+/* line 212, ../scss/app.scss */
+.mega {
+  font-size: 4.6875rem;
+  font-weight: 900;
+  color: #f1f2f2;
+}
+
+/* line 218, ../scss/app.scss */
+.super {
+  font-size: 3.4375rem;
+  color: #f1f2f2;
+  font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 231, ../scss/app.scss */
+.arrow-border {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 16px solid #7F7F7F;
+}
+
+/* line 239, ../scss/app.scss */
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 9px solid #A6A6A6;
+  position: relative;
+  bottom: 9px;
+  left: 4px;
+}
+
+/* line 249, ../scss/app.scss */
+.icon-large {
+  width: 5em;
+}
+
+/* line 252, ../scss/app.scss */
+.icon-med {
+  width: 2.5em;
+}
+
+/* line 255, ../scss/app.scss */
+.icon-small {
+  width: 1em;
+}
+
+/* line 258, ../scss/app.scss */
+.icon-ghost {
+  fill: rgba(242, 138, 13, 0.6);
+  stroke: rgba(242, 138, 13, 0.6);
+}
+
+/* line 263, ../scss/app.scss */
+.icon-circle-fill {
+  fill: rgba(128, 205, 230, 0);
+}
+
+/* line 266, ../scss/app.scss */
+.icon-circle-stroke {
+  fill: #f1f2f2;
+}
+
+/* line 269, ../scss/app.scss */
+.icon-arrow {
+  stroke: #f1f2f2;
+  stroke-width: 40px;
+}
+
+/* line 273, ../scss/app.scss */
+.icon-circle:hover .icon-circle-stroke {
+  fill: #80cde6;
+}
+
+/* line 276, ../scss/app.scss */
+.icon-circle:hover .icon-circle-fill {
+  fill: white;
+}
+
+/* line 279, ../scss/app.scss */
+.icon-circle:hover .icon-arrow {
+  stroke: #80cde6;
+}
+
+/* line 282, ../scss/app.scss */
+.icon-circle-click:active {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
 }

@@ -89,8 +89,8 @@
 	margin-bottom: 1.25em;
 }
 .panel-ghost {
-	background: rgba(0,0,0,0);
-	border-top: 2px solid rgba(255,255,255,.25);
+	background: scale-color($secondary-color, $saturation: 20%, $lightness: 0%, $alpha: -90%);
+	border: 2px solid rgba(255,255,255,.25);
 	border-radius: 5px;
 }
 .panel-alert-muted {
@@ -109,7 +109,6 @@
 .panel-secondary-tweaked {
     background: scale-color($secondary-color, $saturation: -10%, $lightness: -40%, $alpha: -20%);
     border: none;
-    padding: 2.5em;
     border-top: 1px solid #111;
     border-bottom: 1px solid #111;
 }
@@ -144,7 +143,7 @@
     bottom: 0;
     height: auto;
     padding: 3em 2em 0em 3em;
-    background: scale-color($secondary-color,  $saturation: -10%, $lightness: -60%, $alpha: -8%);
+    background: scale-color($secondary-color,  $saturation: 20%, $lightness: -60%, $alpha: -80%);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -153,7 +152,7 @@
     border-top: 1px solid hsla(15,100,1,.9);
 }
 .footer-text {
-    color: scale-color($primary-color, $lightness: -50%);   
+    color: scale-color($primary-color, $lightness: 30%, $alpha: -40%);   
     font-size: .8em;
 }
 .social-icon {
@@ -182,7 +181,7 @@
    padding-top: 200px;
 }
 .shadowed {
-    -webkit-filter: drop-shadow(0px 0px 1.5px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,1));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -204,3 +203,91 @@
 #modal-comingsoon-blog > p {
     text-color: #333;
 }
+.text-shadow {
+       text-shadow: 1px 1px 1px #000,
+             -1px -1px 1px #000,
+             -1px 1px 1px #000,
+              1px -1px 1px #000;
+          }
+.mega {
+      font-size: rem-calc(75);
+      font-weight: 900;
+      color: #f1f2f2;
+    
+    }
+.super { 
+      font-size: rem-calc(55);
+      color: #f1f2f2;
+      font-family: $header-font-family;
+      font-style: $header-font-style;
+      
+      font-weight: 700;
+      line-height: $header-line-height;
+      margin-bottom: $header-bottom-margin;
+      margin-top: $header-top-margin;
+      text-rendering: $header-text-rendering;
+
+            }
+.arrow-border {
+width: 0; 
+height: 0; 
+border-top: 15px solid transparent;
+border-bottom: 15px solid transparent; 
+border-right:16px solid #7F7F7F; 
+}
+            
+.arrow {
+width:0;
+height:0;
+border-top:9px solid transparent;
+border-bottom:9px solid transparent;
+border-right:9px solid #A6A6A6;
+position:relative;
+bottom:9px;
+left:4px;
+}
+.icon-large {
+    width: 5em;
+}
+.icon-med {
+    width: 2.5em;
+}
+.icon-small {
+    width: 1em;
+}
+.icon-ghost {
+    fill: scale-color($alert-color, $saturation: -10%, $lightness: 0%, $alpha: -40%);
+    stroke: scale-color($alert-color, $saturation: -10%, $lightness: 0%, $alpha: -40%);   
+}
+
+.icon-circle-fill {
+    fill: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: -100%);
+}
+.icon-circle-stroke {
+    fill: #f1f2f2;
+}
+.icon-arrow {
+    stroke: #f1f2f2;
+    stroke-width: 40px;
+}
+.icon-circle:hover .icon-circle-stroke {
+    fill: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: 0%); 
+}
+.icon-circle:hover .icon-circle-fill {
+    fill: scale-color($primary-color, $saturation: 20%, $lightness: 100%, $alpha: 0%);
+}
+.icon-circle:hover .icon-arrow {
+    stroke: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: 0%);
+}
+.icon-circle-click:active {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+ }
+
+
