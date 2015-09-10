@@ -4140,7 +4140,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(112, 112, 112, 0.5);
   border-style: solid;
   border-width: 1px;
   border-color: #cccccc;
@@ -5922,7 +5922,7 @@ ul.pagination li {
 /* line 169, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
   background: #000000;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.85);
   bottom: 0;
   display: none;
   left: 0;
@@ -5943,9 +5943,9 @@ ul.pagination li {
   width: 100%;
   z-index: 1005;
   left: 0;
-  background-color: #FFFFFF;
+  background-color: rgba(112, 112, 112, 0.5);
   padding: 1.875rem;
-  border: solid 1px #666666;
+  border: solid 10px #6eff46;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 @media only screen and (max-width: 40em) {
@@ -9515,7 +9515,7 @@ th.hide-for-touch {
 /* line 91, ../scss/app.scss */
 .panel-ghost {
   background: rgba(100, 50, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.25);
+  border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
 
@@ -9598,7 +9598,7 @@ th.hide-for-touch {
   margin-right: auto;
   max-width: initial;
   display: inline-block;
-  border-top: 1px solid rgba(5, 1, 0, 0.9);
+  border-top: 8px solid rgba(80, 200, 240, 0.5);
 }
 
 /* line 154, ../scss/app.scss */
@@ -9728,44 +9728,38 @@ th.hide-for-touch {
   width: 1em;
 }
 
-/* line 258, ../scss/app.scss */
-.icon-ghost {
-  fill: rgba(242, 138, 13, 0.6);
-  stroke: rgba(242, 138, 13, 0.6);
-}
-
-/* line 263, ../scss/app.scss */
+/* line 259, ../scss/app.scss */
 .icon-circle-fill {
   fill: rgba(128, 205, 230, 0);
 }
 
-/* line 266, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 .icon-circle-stroke {
   fill: #f1f2f2;
 }
 
-/* line 269, ../scss/app.scss */
+/* line 265, ../scss/app.scss */
 .icon-arrow {
   stroke: #f1f2f2;
   stroke-width: 40px;
 }
 
-/* line 273, ../scss/app.scss */
+/* line 269, ../scss/app.scss */
 .icon-circle:hover .icon-circle-stroke {
   fill: #80cde6;
 }
 
-/* line 276, ../scss/app.scss */
+/* line 272, ../scss/app.scss */
 .icon-circle:hover .icon-circle-fill {
   fill: white;
 }
 
-/* line 279, ../scss/app.scss */
+/* line 275, ../scss/app.scss */
 .icon-circle:hover .icon-arrow {
   stroke: #80cde6;
 }
 
-/* line 282, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 .icon-circle-click:active {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;

@@ -90,7 +90,7 @@
 }
 .panel-ghost {
 	background: scale-color($secondary-color, $saturation: 20%, $lightness: 0%, $alpha: -90%);
-	border: 2px solid rgba(255,255,255,.25);
+	border: 8px solid rgba(255,255,255,.5);
 	border-radius: 5px;
 }
 .panel-alert-muted {
@@ -149,7 +149,7 @@
     margin-right: auto;
     max-width: initial;
     display: inline-block;
-    border-top: 1px solid hsla(15,100,1,.9);
+    border-top: 8px solid scale-color($primary-color,  $saturation: 0%, $lightness: 0%, $alpha: -50%);
 }
 .footer-text {
     color: scale-color($primary-color, $lightness: 30%, $alpha: -40%);   
@@ -254,10 +254,6 @@ left:4px;
 }
 .icon-small {
     width: 1em;
-}
-.icon-ghost {
-    fill: scale-color($alert-color, $saturation: -10%, $lightness: 0%, $alpha: -40%);
-    stroke: scale-color($alert-color, $saturation: -10%, $lightness: 0%, $alpha: -40%);   
 }
 
 .icon-circle-fill {
