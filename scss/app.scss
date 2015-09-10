@@ -48,7 +48,7 @@
 }
 .ghost-blue {
 	background: none;
-	border: 2px solid #50C8F0;
+	border: 1px solid #50C8F0;
 	color: #50C8F0;
 	border-radius: 3px;
 }
@@ -90,7 +90,7 @@
 }
 .panel-ghost {
 	background: scale-color($secondary-color, $saturation: 20%, $lightness: 0%, $alpha: -90%);
-	border: 8px solid rgba(255,255,255,.5);
+	border: 8px solid $white; // scale-color($success-color, $saturation: 0%, $lightness: 0%, $alpha: -50%);
 	border-radius: 5px;
 }
 .panel-alert-muted {
@@ -152,8 +152,11 @@
     border-top: 8px solid scale-color($primary-color,  $saturation: 0%, $lightness: 0%, $alpha: -50%);
 }
 .footer-text {
-    color: scale-color($primary-color, $lightness: 30%, $alpha: -40%);   
+    color: scale-color($primary-color, $lightness: 50%, $alpha: -30%);   
     font-size: .8em;
+}
+.slogan {
+    font-family: $font-family-serif;
 }
 .social-icon {
   display: inline-block;
@@ -260,22 +263,22 @@ left:4px;
     fill: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: -100%);
 }
 .icon-circle-stroke {
-    fill: #f1f2f2;
+    fill: rgba(255,255,255,1);
 }
 .icon-arrow {
-    stroke: #f1f2f2;
+    stroke: $primary-color;
     stroke-width: 40px;
 }
 .icon-circle:hover .icon-circle-stroke {
-    fill: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: 0%); 
+    fill: $primary-color;
 }
 .icon-circle:hover .icon-circle-fill {
-    fill: scale-color($primary-color, $saturation: 20%, $lightness: 100%, $alpha: 0%);
+    fill: $primary-color;
 }
 .icon-circle:hover .icon-arrow {
-    stroke: scale-color($primary-color, $saturation: -20%, $lightness: 20%, $alpha: 0%);
+    stroke: #f1f2f2;
 }
-.icon-circle-click:active {
+.icon-circle:active {
     -webkit-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
