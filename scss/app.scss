@@ -93,6 +93,16 @@
 	border: 8px solid $white; // scale-color($success-color, $saturation: 0%, $lightness: 0%, $alpha: -50%);
 	border-radius: 5px;
 }
+.panel-white {
+    background: scale-color($secondary-color, $saturation: 20%, $lightness: 100%, $alpha: -20%);
+    border: 8px solid $white; // scale-color($success-color, $saturation: 0%, $lightness: 0%, $alpha: -50%);
+    border-radius: 5px;
+}
+.panel-footerstyle {
+    background: scale-color($alert-color, $saturation: -100%, $lightness: -45%, $alpha: 0%);
+    border: 8px solid $primary-color;
+    color: $white;
+}
 .panel-alert-muted {
 	background: scale-color($alert-color, $saturation: -30%, $lightness: -30%);
     border: none;
@@ -154,6 +164,9 @@
 .footer-text {
     color: scale-color($primary-color, $lightness: 50%, $alpha: -30%);   
     font-size: .8em;
+}
+.reveal-modal>p {
+    color: $white;
 }
 .slogan {
     font-family: $font-family-serif;
@@ -289,4 +302,18 @@ left:4px;
      transition-property: transform;
  }
 
-
+#modal-comingsoon-about {
+    box-sizing: border-box;
+    background: url(../images/lifeward-about-mike-and-vancouver-v1.3.jpg) no-repeat center center fixed;
+   
+}
+#modal-comingsoon-blog {
+    box-sizing: border-box;
+    background: url(../images/Geometric-triangles-in-red-yellow-and-blue_www.EpicWpp.com_.jpg) no-repeat center center fixed;
+   
+}
+#modal-comingsoon-contact {
+    box-sizing: border-box;
+    background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080.jpg) no-repeat center center fixed;
+   
+}

@@ -5922,7 +5922,7 @@ ul.pagination li {
 /* line 169, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
   background: #000000;
-  background: rgba(0, 0, 0, 0.85);
+  background: black;
   bottom: 0;
   display: none;
   left: 0;
@@ -5943,9 +5943,9 @@ ul.pagination li {
   width: 100%;
   z-index: 1005;
   left: 0;
-  background-color: rgba(112, 112, 112, 0.5);
+  background-color: #464646;
   padding: 1.875rem;
-  border: solid 10px #6eff46;
+  border: solid 8px #50C8F0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 @media only screen and (max-width: 40em) {
@@ -6070,7 +6070,7 @@ ul.pagination li {
 }
 /* line 206, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal .close-reveal-modal {
-  color: #AAAAAA;
+  color: #FF8B00;
   cursor: pointer;
   font-size: 2.5rem;
   font-weight: bold;
@@ -7903,7 +7903,7 @@ p aside {
 /* Default header styles */
 /* line 253, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #50C8F0;
+  color: #FFFFFF;
   font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -7914,7 +7914,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 263, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  color: #8ddbf5;
+  color: white;
   font-size: 60%;
   line-height: 0;
 }
@@ -7952,7 +7952,7 @@ h6 {
 /* line 278, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #8ddbf5;
+  color: white;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -8112,7 +8112,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #78d5f3;
+  color: white;
 }
 /* line 410, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -8121,14 +8121,14 @@ blockquote cite:before {
 /* line 414, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #78d5f3;
+  color: white;
 }
 
 /* line 420, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #8ddbf5;
+  color: white;
 }
 
 /* Microformats */
