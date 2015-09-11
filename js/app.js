@@ -80,3 +80,22 @@ $(document).ready(function(){
     }
  
 });
+
+    /* attach a submit handler to the form */
+    $("#formoid").submit(function(event) {
+
+      /* stop form from submitting normally */
+      event.preventDefault();
+
+      /* get some values from elements on the page: */
+      var $form = $( this ),
+          url = $form.attr( 'action' );
+
+      /* Send the data using post */
+      var posting = $.post( url, { name: $('#name').val(), email: $('#email').val(), message: $('#message').val() } );
+
+      /* Alerts the results */
+      posting.done(function( data ) {
+        alert('success');
+      });
+    });

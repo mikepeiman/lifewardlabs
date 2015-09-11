@@ -12,6 +12,7 @@
   </head>
   <body>
 
+<!-- Main Nav Section -->
 <div class="fixed">
 <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
@@ -23,7 +24,8 @@
       <li><a href="#" data-reveal-id="modal-comingsoon-blog">Blog</a></li>
       <li><a href="#" data-reveal-id="modal-comingsoon-contact">Contact</a></li>
     </ul>
-    <!-- Left Nav Section -->
+
+<!-- Left Nav Section -->
     <ul class="left">
       <li><a href="#" data-reveal-id="modal-comingsoon-about">About Us</a></li>
     </ul>  
@@ -54,33 +56,35 @@
 </div>
 </div>
 </div>
+
 <!-- COMING SOON | CONTACT PAGE MODAL -->
 <div id="modal-comingsoon-contact" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 <div class="row">
 <div class="large-12 columns panel-footerstyle">
-  <h2 id="modalTitle" class="text-center">Contact Us</h2>
-  <div class="row">
+  <h2 id="modalTitle" class="text-center">Contact Us</h2> 
+  <form id="formoid" action="mailto:mike@lifewardlabs.com" method="POST">
   <div class="large-6 columns">
   <label>
-  <input type="text" placeholder="Your name">
+  <input type="text" id="name" name"name" placeholder="Your name">
   </label>
   </div>
   <div class="large-6 columns">
   <label>
-  <input type="email" placeholder="Your email">
+  <input type="email" id="email" name"email" placeholder="Your email">
   </label>
-  </div>
   </div>
   <div class="large-12 columns">
   <label>
-  <textarea type="text" placeholder="Your message" style="height: 100px;"></textarea>
+  <textarea type="text" id="message" name"message" placeholder="Your message" style="height: 100px;"></textarea>
   </label>
   </div>
-  <p class="text-center"><a href="mailto:mike@lifewardlabs.co" class="button ghost-blue">Send us an email</a></p>
+  <p class="text-center"><input type="submit" id="submitButton"  name="submitButton" value="Submit"></p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </form>
 </div>
 </div>
 </div>
+
 <!-- COMING SOON | ABOUT PAGE MODAL -->
 <div id="modal-comingsoon-about" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 <div class="row">
