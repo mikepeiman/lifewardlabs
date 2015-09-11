@@ -33,13 +33,31 @@
 </nav>
 </div>
 
+<!-- COMING SOON | ABOUT PAGE MODAL -->
+<div id="modal-comingsoon-about" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+<div class="row">
+<div class="large-6 medium-6 columns">
+<p class="text-center shadowed-strong"><img src="images/DSC00879-cropped-resized-800wide.jpg" style="width:auto; height: auto;" /></p>
+</div>
+<div class="large-6 medium-6 columns panel-footerstyle">
+  <h2 id="modalTitle"  class="text-center super shadowed">Design For Life</h2>
+  <p class="lead">Lifeward Labs is the business face of Michael Peiman's web development work.</p>
+ 
+  <p> Our initial focus is on building and integrating tools and systems of personal productivity and knowledge management - uniquely, in the context of whole-life management. Our aim is to create tools and resources which help empower human creativity and optimize human potential.</p>
+  <p>The immediate work of Lifeward Labs is to build MVP (Minimum Viable Product) "modules" of the various functions of a life-management system. These will be stand-alone apps, but designed with future integration or consolidation in mind.</p>
+  <p>Sign up to our mailing list to get updates, and help shape the future of a new kind of app - the personal life management system!</p> 
+
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+</div>
+</div>
+
 <!-- COMING SOON | BLOG PAGE MODAL -->
 <div id="modal-comingsoon-blog" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 <div class="row">
-<div class="large-12 columns panel-footerstyle">
+<div class="large-8 medium-8 columns push-2 columns panel-footerstyle">
   <h2 id="modalTitle" class="text-center">Blog coming soon!</h2>
-  <p class="lead text-center">We have plenty to say -</p>
-  <p>But plenty to do also. This blog will launch before winter 2015, but exactly when we cannot say right now. Subscribe for updates to be notified! We'd love to keep you in the loop.</p>
+  <p class="text-center">Blog launching fall 2015 - subscribe for updates to be notified! We'd love to keep you in the loop.</p>
    <form action="http://getthefitness.us7.list-manage1.com/subscribe/post" method="POST">
         <input type="hidden" name="u" value="2e0789618f3335c1fdeae5f80">
         <input type="hidden" name="id" value="fa100a4a55">
@@ -60,9 +78,10 @@
 <!-- COMING SOON | CONTACT PAGE MODAL -->
 <div id="modal-comingsoon-contact" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 <div class="row">
-<div class="large-12 columns panel-footerstyle">
+<div class="large-8 medium-8 columns push-2 panel-footerstyle">
   <h2 id="modalTitle" class="text-center">Contact Us</h2> 
-  <form id="formoid" action="mailto:mike@lifewardlabs.com" method="POST">
+  <p class="text-center">Send us a message directly. Big ideas welcome.</p>
+  <form name="contactform" action="contact-form.php" method="post">
   <div class="large-6 columns">
   <label>
   <input type="text" id="name" name"name" placeholder="Your name">
@@ -75,29 +94,16 @@
   </div>
   <div class="large-12 columns">
   <label>
-  <textarea type="text" id="message" name"message" placeholder="Your message" style="height: 100px;"></textarea>
+  <textarea type="text" id="comments" name"comments" placeholder="Your message" rows="6"></textarea>
   </label>
+ 
+  <p class="text-center"><input type="submit" id="submitButton"  class="button ghost-blue fullwidth" name="submitButton" value="Send message"></p>
   </div>
-  <p class="text-center"><input type="submit" id="submitButton"  name="submitButton" value="Submit"></p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a> 
   </form>
 </div>
 </div>
 </div>
-
-<!-- COMING SOON | ABOUT PAGE MODAL -->
-<div id="modal-comingsoon-about" class="reveal-modal full" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-<div class="row">
-<div class="large-8 medium-8 push-4 columns panel-footerstyle">
-  <h2 id="modalTitle"  class="text-center super shadowed-strong">Lifeward Labs</h2>
-  <p class="lead">The business identity of Mike Peiman</p>
-  <p>My mission in creating Lifeward Labs is to leverage technological, cultural, and business systems to build a better world. I'll write more about that here, soon!</p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-</div>
-</div>
-</div>
-
-
 
       <div class="row">
       
