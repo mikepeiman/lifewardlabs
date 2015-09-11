@@ -9672,39 +9672,103 @@ th.hide-for-touch {
 }
 
 /* line 205, ../scss/app.scss */
-.shadowed-med {
-  -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.7));
+.shadowed-weak {
+  -webkit-filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
 /* line 211, ../scss/app.scss */
-.shadowed-strong {
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+.shadowed-med {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 219, ../scss/app.scss */
+/* line 217, ../scss/app.scss */
+.shadowed-strong {
+  -webkit-filter: drop-shadow(0px 0px 5px black);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 223, ../scss/app.scss */
+.backlight {
+  -webkit-filter: drop-shadow(0px 0px 1px white);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 229, ../scss/app.scss */
+.backlight-weak {
+  -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.5));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 235, ../scss/app.scss */
+.backlight-med {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.7));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 241, ../scss/app.scss */
+.backlight-strong {
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 247, ../scss/app.scss */
+.backlight-blue {
+  -webkit-filter: drop-shadow(0px 0px 1px #50c8f0);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 253, ../scss/app.scss */
+.backlight-green {
+  -webkit-filter: drop-shadow(0px 0px 1px #2cc900);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 259, ../scss/app.scss */
+.backlight-orange {
+  -webkit-filter: drop-shadow(0px 0px 1px #ff8b00);
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* line 265, ../scss/app.scss */
 #modal-comingsoon-blog > p {
   text-color: #333;
 }
 
-/* line 222, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 .text-shadow {
   text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
-/* line 228, ../scss/app.scss */
+/* line 274, ../scss/app.scss */
 .mega {
   font-size: 4.6875rem;
   font-weight: 900;
   color: #f1f2f2;
 }
 
-/* line 234, ../scss/app.scss */
+/* line 280, ../scss/app.scss */
 .super {
   font-size: 3.4375rem;
   color: #f1f2f2;
@@ -9717,7 +9781,7 @@ th.hide-for-touch {
   text-rendering: optimizeLegibility;
 }
 
-/* line 247, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .arrow-border {
   width: 0;
   height: 0;
@@ -9726,7 +9790,7 @@ th.hide-for-touch {
   border-right: 16px solid #7F7F7F;
 }
 
-/* line 255, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 .arrow {
   width: 0;
   height: 0;
@@ -9738,53 +9802,53 @@ th.hide-for-touch {
   left: 4px;
 }
 
-/* line 265, ../scss/app.scss */
+/* line 311, ../scss/app.scss */
 .icon-large {
   width: 5em;
 }
 
-/* line 268, ../scss/app.scss */
+/* line 314, ../scss/app.scss */
 .icon-med {
   width: 2.5em;
 }
 
-/* line 271, ../scss/app.scss */
+/* line 317, ../scss/app.scss */
 .icon-small {
   width: 1em;
 }
 
-/* line 275, ../scss/app.scss */
+/* line 321, ../scss/app.scss */
 .icon-circle-fill {
   fill: rgba(128, 205, 230, 0);
 }
 
-/* line 278, ../scss/app.scss */
+/* line 324, ../scss/app.scss */
 .icon-circle-stroke {
   fill: white;
 }
 
-/* line 281, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 .icon-arrow {
   stroke: #50C8F0;
   stroke-width: 40px;
 }
 
-/* line 285, ../scss/app.scss */
+/* line 331, ../scss/app.scss */
 .icon-circle:hover .icon-circle-stroke {
   fill: #50C8F0;
 }
 
-/* line 288, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
 .icon-circle:hover .icon-circle-fill {
   fill: #50C8F0;
 }
 
-/* line 291, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 .icon-circle:hover .icon-arrow {
   stroke: #f1f2f2;
 }
 
-/* line 294, ../scss/app.scss */
+/* line 340, ../scss/app.scss */
 .icon-circle:active {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -9796,25 +9860,25 @@ th.hide-for-touch {
   transition-property: transform;
 }
 
-/* line 305, ../scss/app.scss */
+/* line 351, ../scss/app.scss */
 #modal-comingsoon-about {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
 }
 
-/* line 310, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 #modal-comingsoon-blog {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
 }
 
-/* line 315, ../scss/app.scss */
+/* line 361, ../scss/app.scss */
 #modal-comingsoon-contact {
   box-sizing: border-box;
   background: url(../images/lifeward-about-mike-and-vancouver-v1.3.jpg) no-repeat center center fixed;
 }
 
-/* line 319, ../scss/app.scss */
+/* line 365, ../scss/app.scss */
 #modal-about-photo {
   box-sizing: border-box;
   background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080-fx2.jpg) no-repeat center center fixed;
