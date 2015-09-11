@@ -9729,7 +9729,7 @@ th.hide-for-touch {
 
 /* line 247, ../scss/app.scss */
 .backlight-blue {
-  -webkit-filter: drop-shadow(0px 0px 1px #50c8f0);
+  -webkit-filter: drop-shadow(0px 0px 3px #50c8f0);
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -9737,7 +9737,7 @@ th.hide-for-touch {
 
 /* line 253, ../scss/app.scss */
 .backlight-green {
-  -webkit-filter: drop-shadow(0px 0px 1px #2cc900);
+  -webkit-filter: drop-shadow(0px 0px 3px #2cc900);
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -9745,7 +9745,7 @@ th.hide-for-touch {
 
 /* line 259, ../scss/app.scss */
 .backlight-orange {
-  -webkit-filter: drop-shadow(0px 0px 1px #ff8b00);
+  -webkit-filter: drop-shadow(0px 0px 3px #ff8b00);
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -9872,13 +9872,19 @@ th.hide-for-touch {
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
 }
 
-/* line 361, ../scss/app.scss */
+/* line 360, ../scss/app.scss */
+#modal-signup {
+  box-sizing: border-box;
+  background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
+}
+
+/* line 364, ../scss/app.scss */
 #modal-comingsoon-contact {
   box-sizing: border-box;
   background: url(../images/lifeward-about-mike-and-vancouver-v1.3.jpg) no-repeat center center fixed;
 }
 
-/* line 365, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
 #modal-about-photo {
   box-sizing: border-box;
   background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080-fx2.jpg) no-repeat center center fixed;

@@ -245,19 +245,19 @@
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 .backlight-blue {
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(80,200,240,1));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(80,200,240,1));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 .backlight-green {
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(44,201,0,1));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(44,201,0,1));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 .backlight-orange {
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(255,139,0,1));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(255,139,0,1));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -355,8 +355,11 @@ left:4px;
 }
 #modal-comingsoon-blog {
     box-sizing: border-box;
-    background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
-   
+    background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed; 
+}
+#modal-signup {
+    box-sizing: border-box;
+    background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed; 
 }
 #modal-comingsoon-contact {
     box-sizing: border-box;
