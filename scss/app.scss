@@ -157,6 +157,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -20px;
     max-width: initial;
     display: inline-block;
     border-top: 8px solid $primary-color; // scale-color($primary-color,  $saturation: 0%, $lightness: 0%, $alpha: -50%);
@@ -262,9 +263,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
-#modal-comingsoon-blog > p {
-    text-color: #333;
-}
+
 .text-shadow {
        text-shadow: 1px 1px 1px #000,
              -1px -1px 1px #000,
@@ -349,13 +348,16 @@ left:4px;
  }
 
 #modal-comingsoon-about {
-    box-sizing: border-box;
-    background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed; // lifeward-about-mike-and-vancouver-v1.3
-   
+  
+    background: #122334; // url(../images/lifeward-birds-bg.jpg) no-repeat center center fixed; // lifeward-about-mike-and-vancouver-v1.3
+    p { 
+        font-size: 1em;
+        font-weight: 300;  }
 }
 #modal-comingsoon-blog {
     box-sizing: border-box;
     background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed; 
+     text-color: #333;
 }
 #modal-signup {
     box-sizing: border-box;

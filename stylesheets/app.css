@@ -70,7 +70,7 @@ html, body {
 /* line 428, ../bower_components/foundation/scss/foundation/components/_global.scss */
 html {
   box-sizing: border-box;
-  background: url(../images/lifeward-birds-bg.jpg) no-repeat center center fixed;
+  background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9611,28 +9611,29 @@ th.hide-for-touch {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -200px;
   max-width: initial;
   display: inline-block;
   border-top: 8px solid #50C8F0;
 }
 
-/* line 164, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 .footer-text {
   color: rgba(168, 227, 248, 0.7);
   font-size: .8em;
 }
 
-/* line 168, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .reveal-modal > p {
   color: #FFFFFF;
 }
 
-/* line 171, ../scss/app.scss */
+/* line 172, ../scss/app.scss */
 .slogan {
   font-family: Cambria, "Old Standard TT", "Josefin Slab", Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 174, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .social-icon {
   display: inline-block;
   background-size: 100%;
@@ -9649,7 +9650,7 @@ th.hide-for-touch {
   margin-bottom: 5px;
 }
 
-/* line 189, ../scss/app.scss */
+/* line 190, ../scss/app.scss */
 .social-icon:hover {
   margin: -1px 0 1px;
   -moz-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
@@ -9657,13 +9658,13 @@ th.hide-for-touch {
   box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.75);
 }
 
-/* line 195, ../scss/app.scss */
+/* line 196, ../scss/app.scss */
 .footer-claim {
   position: relative;
   padding-top: 200px;
 }
 
-/* line 199, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .shadowed {
   -webkit-filter: drop-shadow(0px 0px 1px black);
   filter: url(#drop-shadow);
@@ -9671,7 +9672,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 205, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 .shadowed-weak {
   -webkit-filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
   filter: url(#drop-shadow);
@@ -9679,7 +9680,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 211, ../scss/app.scss */
+/* line 212, ../scss/app.scss */
 .shadowed-med {
   -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
   filter: url(#drop-shadow);
@@ -9687,7 +9688,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 217, ../scss/app.scss */
+/* line 218, ../scss/app.scss */
 .shadowed-strong {
   -webkit-filter: drop-shadow(0px 0px 5px black);
   filter: url(#drop-shadow);
@@ -9695,7 +9696,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 223, ../scss/app.scss */
+/* line 224, ../scss/app.scss */
 .backlight {
   -webkit-filter: drop-shadow(0px 0px 1px white);
   filter: url(#drop-shadow);
@@ -9703,7 +9704,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 229, ../scss/app.scss */
+/* line 230, ../scss/app.scss */
 .backlight-weak {
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.5));
   filter: url(#drop-shadow);
@@ -9711,7 +9712,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 235, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 .backlight-med {
   -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.7));
   filter: url(#drop-shadow);
@@ -9719,7 +9720,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 241, ../scss/app.scss */
+/* line 242, ../scss/app.scss */
 .backlight-strong {
   -webkit-filter: drop-shadow(0px 0px 5px white);
   filter: url(#drop-shadow);
@@ -9727,7 +9728,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 247, ../scss/app.scss */
+/* line 248, ../scss/app.scss */
 .backlight-blue {
   -webkit-filter: drop-shadow(0px 0px 3px #50c8f0);
   filter: url(#drop-shadow);
@@ -9735,7 +9736,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 253, ../scss/app.scss */
+/* line 254, ../scss/app.scss */
 .backlight-green {
   -webkit-filter: drop-shadow(0px 0px 3px #2cc900);
   filter: url(#drop-shadow);
@@ -9743,7 +9744,7 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 259, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 .backlight-orange {
   -webkit-filter: drop-shadow(0px 0px 3px #ff8b00);
   filter: url(#drop-shadow);
@@ -9751,24 +9752,19 @@ th.hide-for-touch {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 265, ../scss/app.scss */
-#modal-comingsoon-blog > p {
-  text-color: #333;
-}
-
-/* line 268, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 .text-shadow {
   text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
-/* line 274, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 .mega {
   font-size: 4.6875rem;
   font-weight: 900;
   color: #f1f2f2;
 }
 
-/* line 280, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 .super {
   font-size: 3.4375rem;
   color: #f1f2f2;
@@ -9781,7 +9777,7 @@ th.hide-for-touch {
   text-rendering: optimizeLegibility;
 }
 
-/* line 293, ../scss/app.scss */
+/* line 292, ../scss/app.scss */
 .arrow-border {
   width: 0;
   height: 0;
@@ -9790,7 +9786,7 @@ th.hide-for-touch {
   border-right: 16px solid #7F7F7F;
 }
 
-/* line 301, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 .arrow {
   width: 0;
   height: 0;
@@ -9802,53 +9798,53 @@ th.hide-for-touch {
   left: 4px;
 }
 
-/* line 311, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 .icon-large {
   width: 5em;
 }
 
-/* line 314, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 .icon-med {
   width: 2.5em;
 }
 
-/* line 317, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 .icon-small {
   width: 1em;
 }
 
-/* line 321, ../scss/app.scss */
+/* line 320, ../scss/app.scss */
 .icon-circle-fill {
   fill: rgba(128, 205, 230, 0);
 }
 
-/* line 324, ../scss/app.scss */
+/* line 323, ../scss/app.scss */
 .icon-circle-stroke {
   fill: white;
 }
 
-/* line 327, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
 .icon-arrow {
   stroke: #50C8F0;
   stroke-width: 40px;
 }
 
-/* line 331, ../scss/app.scss */
+/* line 330, ../scss/app.scss */
 .icon-circle:hover .icon-circle-stroke {
   fill: #50C8F0;
 }
 
-/* line 334, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 .icon-circle:hover .icon-circle-fill {
   fill: #50C8F0;
 }
 
-/* line 337, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 .icon-circle:hover .icon-arrow {
   stroke: #f1f2f2;
 }
 
-/* line 340, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 .icon-circle:active {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -9860,31 +9856,36 @@ th.hide-for-touch {
   transition-property: transform;
 }
 
-/* line 351, ../scss/app.scss */
+/* line 350, ../scss/app.scss */
 #modal-comingsoon-about {
-  box-sizing: border-box;
-  background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
+  background: #122334;
+}
+/* line 353, ../scss/app.scss */
+#modal-comingsoon-about p {
+  font-size: 1em;
+  font-weight: 300;
 }
 
-/* line 356, ../scss/app.scss */
+/* line 357, ../scss/app.scss */
 #modal-comingsoon-blog {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
+  text-color: #333;
 }
 
-/* line 360, ../scss/app.scss */
+/* line 362, ../scss/app.scss */
 #modal-signup {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
 }
 
-/* line 364, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 #modal-comingsoon-contact {
   box-sizing: border-box;
   background: url(../images/lifeward-about-mike-and-vancouver-v1.3.jpg) no-repeat center center fixed;
 }
 
-/* line 368, ../scss/app.scss */
+/* line 370, ../scss/app.scss */
 #modal-about-photo {
   box-sizing: border-box;
   background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080-fx2.jpg) no-repeat center center fixed;
