@@ -6925,7 +6925,7 @@ meta.foundation-mq-topbar {
 }
 /* line 220, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-  color: #f1f2f2;
+  color: #FFFFFF;
   display: block;
   font-weight: normal;
   padding: 0 1.04167rem;
@@ -6939,7 +6939,7 @@ meta.foundation-mq-topbar {
 }
 /* line 236, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar a {
-  color: #f1f2f2;
+  color: #FFFFFF;
   display: block;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -7037,7 +7037,7 @@ meta.foundation-mq-topbar {
 }
 /* line 335, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
-  color: #f1f2f2;
+  color: #FFFFFF;
   display: block;
   font-family: "Lato", "Open Sans", "Titillium Web", "Ubuntu", Arial, sans-serif;
   font-size: 0.8125rem;
@@ -7315,7 +7315,7 @@ meta.foundation-mq-topbar {
 }
 /* line 459, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-  color: #f1f2f2;
+  color: #FFFFFF;
   display: block;
 }
 /* line 463, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
