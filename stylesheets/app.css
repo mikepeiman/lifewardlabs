@@ -9606,7 +9606,7 @@ th.hide-for-touch {
 .footer {
   bottom: 0;
   height: auto;
-  padding: 3em 2em 0em 3em;
+  padding: 1em .5em 0em .5em;
   background: #464646;
   width: 100%;
   margin-left: auto;
