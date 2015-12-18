@@ -9667,7 +9667,6 @@ th.hide-for-touch {
 /* line 200, ../scss/app.scss */
 .shadowed {
   -webkit-filter: drop-shadow(0px 0px 1px black);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
@@ -9675,7 +9674,6 @@ th.hide-for-touch {
 /* line 206, ../scss/app.scss */
 .shadowed-weak {
   -webkit-filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
@@ -9683,7 +9681,6 @@ th.hide-for-touch {
 /* line 212, ../scss/app.scss */
 .shadowed-med {
   -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
@@ -9691,80 +9688,72 @@ th.hide-for-touch {
 /* line 218, ../scss/app.scss */
 .shadowed-strong {
   -webkit-filter: drop-shadow(0px 0px 5px black);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 224, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 .backlight {
   -webkit-filter: drop-shadow(0px 0px 1px white);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 230, ../scss/app.scss */
+/* line 229, ../scss/app.scss */
 .backlight-weak {
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.5));
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 236, ../scss/app.scss */
+/* line 235, ../scss/app.scss */
 .backlight-med {
   -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.7));
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 242, ../scss/app.scss */
+/* line 241, ../scss/app.scss */
 .backlight-strong {
   -webkit-filter: drop-shadow(0px 0px 5px white);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 248, ../scss/app.scss */
+/* line 247, ../scss/app.scss */
 .backlight-blue {
   -webkit-filter: drop-shadow(0px 0px 3px #50c8f0);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 254, ../scss/app.scss */
+/* line 253, ../scss/app.scss */
 .backlight-green {
   -webkit-filter: drop-shadow(0px 0px 3px #2cc900);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 260, ../scss/app.scss */
+/* line 259, ../scss/app.scss */
 .backlight-orange {
   -webkit-filter: drop-shadow(0px 0px 3px #ff8b00);
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
-/* line 267, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 .text-shadow {
   text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
 
-/* line 273, ../scss/app.scss */
+/* line 272, ../scss/app.scss */
 .mega {
   font-size: 4.6875rem;
   font-weight: 900;
   color: #f1f2f2;
 }
 
-/* line 279, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 .super {
   font-size: 3.4375rem;
   color: #f1f2f2;
@@ -9777,7 +9766,7 @@ th.hide-for-touch {
   text-rendering: optimizeLegibility;
 }
 
-/* line 292, ../scss/app.scss */
+/* line 291, ../scss/app.scss */
 .arrow-border {
   width: 0;
   height: 0;
@@ -9786,7 +9775,7 @@ th.hide-for-touch {
   border-right: 16px solid #7F7F7F;
 }
 
-/* line 300, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 .arrow {
   width: 0;
   height: 0;
@@ -9798,53 +9787,53 @@ th.hide-for-touch {
   left: 4px;
 }
 
-/* line 310, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 .icon-large {
   width: 5em;
 }
 
-/* line 313, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 .icon-med {
   width: 2.5em;
 }
 
-/* line 316, ../scss/app.scss */
+/* line 315, ../scss/app.scss */
 .icon-small {
   width: 1em;
 }
 
-/* line 320, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
 .icon-circle-fill {
   fill: rgba(128, 205, 230, 0);
 }
 
-/* line 323, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .icon-circle-stroke {
   fill: white;
 }
 
-/* line 326, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 .icon-arrow {
   stroke: #50C8F0;
   stroke-width: 40px;
 }
 
-/* line 330, ../scss/app.scss */
+/* line 329, ../scss/app.scss */
 .icon-circle:hover .icon-circle-stroke {
   fill: #50C8F0;
 }
 
-/* line 333, ../scss/app.scss */
+/* line 332, ../scss/app.scss */
 .icon-circle:hover .icon-circle-fill {
   fill: #50C8F0;
 }
 
-/* line 336, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 .icon-circle:hover .icon-arrow {
   stroke: #f1f2f2;
 }
 
-/* line 339, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 .icon-circle:active {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -9856,36 +9845,36 @@ th.hide-for-touch {
   transition-property: transform;
 }
 
-/* line 350, ../scss/app.scss */
+/* line 349, ../scss/app.scss */
 #modal-comingsoon-about {
   background: #122334;
 }
-/* line 353, ../scss/app.scss */
+/* line 352, ../scss/app.scss */
 #modal-comingsoon-about p {
   font-size: 1em;
   font-weight: 300;
 }
 
-/* line 357, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 #modal-comingsoon-blog {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
   text-color: #333;
 }
 
-/* line 362, ../scss/app.scss */
+/* line 361, ../scss/app.scss */
 #modal-signup {
   box-sizing: border-box;
   background: url(../images/lifeward-vue-bg-2014-v1.5.jpg) no-repeat center center fixed;
 }
 
-/* line 366, ../scss/app.scss */
+/* line 365, ../scss/app.scss */
 #modal-comingsoon-contact {
   box-sizing: border-box;
   background: url(../images/lifeward-about-mike-and-vancouver-v1.3.jpg) no-repeat center center fixed;
 }
 
-/* line 370, ../scss/app.scss */
+/* line 369, ../scss/app.scss */
 #modal-about-photo {
   box-sizing: border-box;
   background: url(../images/papers.co-mr94-tree-walk-street-nature-mountain-air-1920x1080-fx2.jpg) no-repeat center center fixed;
